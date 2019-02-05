@@ -29,7 +29,8 @@ function toSelectionScreen()
     playkickSomeAss();
     let kickSomeAss = document.getElementById("kickSomeAss");
     kickSomeAss.addEventListener("ended",()=>{
-      window.open("The Code/Selection Screen.html","_self");
+      console.log("works");  
+      window.open("The Code/Selection Screen.html","_blank");
   });
 }
 
