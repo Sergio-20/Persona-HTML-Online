@@ -135,7 +135,7 @@ function randomTitle()
 {
   let randomVideo = Math.floor(Math.random() * 7);
 
-  let videos = ["../Title Screens/P3 Opening.mp4","../Title Screens/P3 FES.mp4","../Title Screens/P3P.mp4","../Title Screens/P3 Dancing.mp4","../Title Screens/P4 Animation.mp4","../Title Screens/P4G.mp4","../Title Screens/P5.mp4"];
+  let videos = ["Title Screens/P3 Opening.mp4","Title Screens/P3 FES.mp4","Title Screens/P3P.mp4","Title Screens/P3 Dancing.mp4","Title Screens/P4 Animation.mp4","Title Screens/P4G.mp4","Title Screens/P5.mp4"];
   document.getElementById("backgroundVideo").src = videos[randomVideo].toString();
 }
 
