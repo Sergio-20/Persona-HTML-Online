@@ -29,7 +29,7 @@ function toSelectionScreen()
     playkickSomeAss();
     let kickSomeAss = document.getElementById("kickSomeAss");
     kickSomeAss.addEventListener("ended",()=>{
-      window.open("Selection Screen.html","_self");
+      window.open("The Code/Selection Screen.html","_self");
   });
 }
 
