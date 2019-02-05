@@ -1,0 +1,209 @@
+a {
+  color: white;
+}
+
+a:hover {
+  color: lime;
+  cursor: pointer;
+}
+
+body {
+  background-color: black;
+}
+
+@keyframes color-change {
+  0% {
+    background-color: black;
+  }
+  20% {
+    background-color: black;
+  }
+  40% {
+    background-color: red;
+  }
+  60% {
+    background-color: black;
+  }
+  80% {
+    background-color: black;
+  }
+  100% {
+    background-color: red;
+  }
+}
+
+@keyframes color-change02{
+  0% {
+    background-color: red;
+  }
+  20% {
+    background-color: red;
+  }
+  40% {
+    background-color: black;
+  }
+  60% {
+    background-color: red;
+  }
+  80% {
+    background-color: red;
+  }
+  100% {
+    background-color: black;
+  }
+}
+
+@keyframes color-change03{
+  0% {
+    background-color: black;
+  }
+  20% {
+    background-color: black;
+  }
+  40% {
+    background-color: yellow;
+  }
+  60% {
+    background-color: black;
+  }
+  80% {
+    background-color: black;
+  }
+  100% {
+    background-color: yellow;
+  }
+}
+
+@keyframes color-change04{
+  0% {
+    background-color: black;
+  }
+  20% {
+    background-color: black;
+  }
+  40% {
+    background-color: aqua;
+  }
+  60% {
+    background-color: black;
+  }
+  80% {
+    background-color: black;
+  }
+  100% {
+    background-color: aqua;
+  }
+}
+
+@keyframes color-change05{
+  0% {
+    background-color: black;
+  }
+  20% {
+    background-color: black;
+  }
+  40% {
+    background-color: gray;
+  }
+  60% {
+    background-color: black;
+  }
+  80% {
+    background-color: black;
+  }
+  100% {
+    background-color: gray;
+  }
+}
+
+button {
+  background-color: black;
+  border: none;
+  color: red;
+}
+
+#backgroundVideo {
+  height: 100%;
+  width: 100%;
+}
+
+#callMenu {
+  background-color: gray;
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+#nextSongPage {
+  animation: 10000ms ease-in-out infinite color-change02;
+  color: white;
+}
+
+#prevSongPage {
+  animation: 10000ms ease-in-out infinite color-change02;
+  color: white;
+}
+
+.navigationMenu {
+  animation: 10000ms ease-in-out infinite color-change04;
+  color: white;
+  background-color: black;
+  top: 50px;
+  right: 10px;
+  opacity: 0.0;
+  position: absolute;
+  z-index: 99;
+}
+
+/* Media Queries */
+
+/* Smaller PC/Laptop Screen */
+@media screen and (max-width: 1300px){
+
+  #menu, #options, #themes, #optionsOST, #optionsTitleScreens, #credits {
+    overflow-x: hidden;
+    width: 18%;
+  }
+}
+
+/* Tablets */
+@media screen and (max-width: 800px){
+  #menu, #options, #themes, #optionsOST, #optionsTitleScreens, #credits {
+    display: block;
+    left: 0%;
+    top: 80%;
+    left: 5%;
+    margin-top: 10%;
+    overflow-x: hidden;
+    width: 90%;
+    text-align: center;
+  }
+
+  #backgroundVideo {
+    overflow-x: hidden;
+    position: relative;
+    left: 5% !important;
+    width: 90% !important;
+  }
+}
+
+/* Smartphones */
+@media screen and (max-width: 500px){
+  #menu, #options, #themes, #optionsOST, #optionsTitleScreens, #credits {
+    display: block;
+    left: 0%;
+    top: 80%;
+    left: 5%;
+    margin-top: 0%;
+    width: 90%;
+    text-align: center;
+  }
+
+  #backgroundVideo {
+    position: relative;
+    left: 5% !important;
+    width: 90% !important;
+  }
+
+}

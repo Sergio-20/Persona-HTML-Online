@@ -1,0 +1,452 @@
+    a {
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    top: 100px;
+    left: 300px;
+    position: absolute;
+    height: 100px;
+    width: 10px;
+    outline: 1px solid white;
+  }
+
+  h1 {
+    color: white;
+    text-align: center;
+  }
+
+  body {
+    animation: color-change 5s infinite;
+    background-color: black;
+  }
+
+  @keyframes color-change {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+  }
+
+/*Characters:*/
+
+  #Aigis {
+    top: 0px;
+    left: 300px;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    outline: 1px solid white;
+  }
+
+  #aigis:hover {
+    box-shadow: 10px 10px lime;
+  }
+
+  #AigisIconName {
+    color: white;
+    top: 50px;
+    left: 625px;
+    position: absolute;
+  }
+
+  #Chie {
+    top: 0px;
+    left: 600px;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    outline: 1px solid white;
+  }
+
+  #Chie:hover {
+    box-shadow: 10px 10px lime;
+  }
+
+  #ChieIconName {
+    color: white;
+    top: 50px;
+    left: 925px;
+    position: absolute;
+  }
+
+  #Kuma {
+    top: 0px;
+    left: 450px;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    outline: 1px solid white;
+  }
+
+  #Kuma:hover {
+    box-shadow: 10px 10px lime;
+  }
+
+  #KumaIconName {
+    color: white;
+    top: 50px;
+    left: 765px;
+    position: absolute;
+  }
+
+  #Labrys {
+    top: 150px;
+    left: 300px;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    outline: 1px solid white;
+  }
+
+  #Labrys:hover {
+    box-shadow: 10px 10px lime;
+  }
+
+  #LabrysIconName {
+    color: white;
+    top: 200px;
+    left: 615px;
+    position: absolute;
+  }
+
+  #Mitsuru {
+    top: 150px;
+    left: 450px;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    outline: 1px solid white;
+  }
+
+  #Mitsuru:hover {
+    box-shadow: 10px 10px lime;
+  }
+
+  #MitsuruIconName {
+    color: white;
+    top: 200px;
+    left: 760px;
+    position: absolute;
+  }
+
+  #Sho {
+    top: 150px;
+    left: 600px;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    outline: 1px solid white;
+  }
+
+  #Sho:hover {
+    box-shadow: 10px 10px lime;
+  }
+
+  #ShoIconName {
+    color: white;
+    top: 200px;
+    left: 925px;
+    position: absolute;
+  }
+
+  #Yosuke {
+    top: 300px;
+    left: 300px;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    outline: 1px solid white;
+  }
+
+  #Yosuke:hover {
+    box-shadow: 10px 10px lime;
+  }
+
+  #YosukeIconName {
+    color: white;
+    top: 350px;
+    left: 615px;
+    position: absolute;
+  }
+
+  #Yukiko {
+    top: 300px;
+    left: 450px;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    outline: 1px solid white;
+  }
+
+  #Yukiko:hover {
+    box-shadow: 10px 10px lime;
+  }
+
+  #YukikoIconName {
+    color: white;
+    top: 350px;
+    left: 760px;
+    position: absolute;
+  }
+
+  #Yu {
+    top: 300px;
+    left: 600px;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    outline: 1px solid white;
+  }
+
+  #Yu:hover {
+    box-shadow: 10px 10px lime;
+  }
+
+  #YuIconName {
+    color: white;
+    top: 350px;
+    left: 925px;
+    position: absolute;
+  }
+
+/*Stages:*/
+
+  #Entrance {
+    top: 900px;
+    left: 500px;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+  }
+
+  #Entrance:hover {
+    box-shadow: 10px 10px lime;
+  }
+
+  #Gym {
+    top: 1025px;
+    left: 500px;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+  }
+
+  #Gym:hover {
+    box-shadow: 10px 10px lime;
+  }
+
+  #Hallway {
+    top: 1150px;
+    left: 500px;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+  }
+
+  #Hallway:hover {
+    box-shadow: 10px 10px lime;
+  }
+
+  #Lockers {
+    top: 1150px;
+    left: 750px;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+  }
+
+  #Lockers:hover {
+    box-shadow: 10px 10px lime;
+  }
+
+  #Music-Room {
+    top: 900px;
+    left: 750px;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+  }
+
+  #Music-Room:hover {
+    box-shadow: 10px 10px lime;
+  }
+
+  #P4 {
+    top: 1025px;
+    left: 750px;
+    position: absolute;
+    height: 100px;
+    width: 100px;
+  }
+
+  #rain {
+    height: 100%;
+    width:100%;
+  }
+
+  #P4:hover {
+    box-shadow: 10px 10px lime;
+  }
+
+  button:hover {
+    background-color: lime;
+    color: black;
+  }
+
+  /*StatBox*/
+  #statBox {
+    background-color: grey;
+    color: white;
+    left: 7em;
+    opacity: 1.0;
+    position: absolute;
+    top: 15em;
+  }
+
+  /*Begin Game*/
+  #loadSelections {
+    top: 130em;
+    left: 0px;
+    position: absolute;
+    width: 100%;
+  }
+
+  /*Return to Title Screen button*/
+  #return {
+    background-color: grey;
+    color: lime;
+    cursor: pointer;
+    left: -8em;
+    position: absolute;
+    top: -1em;
+  }
+
+  /* Media Queries */
+
+  /* Tablets */
+
+  @media screen and (max-width: 800px){
+
+    body {
+      overflow-x: hidden;
+    }
+    /* Select Character Portion */
+    #videoPlayer {
+      margin-left: 0em;
+      margin-top: -2em;
+      height: 31em;
+      width: 19em;
+    }
+
+    #characters, #charNames {
+      display: block;
+      position: relative;
+      margin-left: -17em;
+      margin-top: -71%;
+    }
+    /* Select Stage Portion */
+    #rain {
+      display: block;
+      position: relative;
+      margin-left: 0em;
+      margin-top: 70%;
+      z-index: -1;
+    }
+
+    #stages {
+      position: relative;
+      left: -17em;
+      top: -15em;
+      z-index: 1;
+    }
+
+    #stagesPrompt {
+      position: relative;
+      left: 1em;
+      top: 20em;
+      z-index: 1;
+    }
+    /* Select Difficulty Portion */
+    #difficultyPrompt {
+      position: relative;
+      left: 0.5em;
+      top: 0em;
+    }
+
+    #easy, #normal, #hard {
+      position: relative;
+      left: 22em;
+      top: 2em;
+    }
+
+    /* Load Selections */
+    #loadSelections {
+      position: relative;
+      left: 0em;
+      top: 10em;
+    }
+  }
+
+  /* Smartphones */
+
+  @media screen and (max-width: 500px){
+    body {
+      overflow-x: hide;
+    }
+    /* Select Character Portion */
+    #videoPlayer {
+      margin-left: 0em;
+      margin-top: -2em;
+      height: 31em;
+      width: 19em;
+    }
+
+    #characters > img, #charNames {
+      display: block;
+      position: relative;
+      margin-left: -17em;
+      margin-top: -30em;
+      width: 0em;
+    }
+    /* Select Stage Portion */
+    #rain {
+      display: block;
+      position: relative;
+      margin-left: 0em;
+      margin-top: 70%;
+      z-index: -1;
+    }
+
+    #stages {
+      position: relative;
+      left: -17em;
+      top: -15em;
+      z-index: 1;
+    }
+
+    #stagesPrompt {
+      position: relative;
+      left: 1em;
+      top: 20em;
+      z-index: 1;
+    }
+    /* Select Difficulty Portion */
+    #difficultyPrompt {
+      position: relative;
+      left: 0.5em;
+      top: 0em;
+    }
+
+    #easy, #normal, #hard {
+      position: relative;
+      left: 22em;
+      top: 2em;
+    }
+
+    /* Load Selections */
+    #loadSelections {
+      position: relative;
+      left: 0em;
+      top: 10em;
+    }
+  }

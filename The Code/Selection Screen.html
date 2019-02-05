@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" type="text/css" href="Selection Screen.css">
+
+<title>Selection Screen</title>
+
+</head>
+
+<body onload="randomBackground();resetSelections();setHealthbar();">
+
+<audio id="error"><source src="../OST/Denied.mp3"/></audio>
+<audio id="select"><source src="../OST/Select.mp3"/></audio>
+
+<h2 id="return"><a onclick="returnToTitle()">Return</a></h2>
+
+<video loop id="videoPlayer">
+</video>
+
+<audio loop id="audio">
+</audio>
+
+<div id="statBox">
+  <h3 id="statAttack">Attack: ?</h3>
+  <h3 id="statBlock">Block: ?</h3>
+  <h3 id="statHealth">Health: ?</h3>
+  <h3 id="statSpeed">Speed: ?</h3>
+</div>
+
+<div id="characters">
+
+<a id="charPrompt">Select your character!</a>
+
+<a onclick="selectedCharacter()"><img id="Aigis" src="../Characters/Aigis/Aigis.png"/></a>
+<a onclick="selectedCharacter()"><img id="Chie" src="../Characters/Chie Satonaka/Chie.png"/></a>
+<a onclick="selectedCharacter()"><img id="Kuma" src="../Characters/Kuma/Kuma.gif"/></a>
+
+<a onclick="selectedCharacter()"><img id="Labrys" src="../Characters/Labrys/Labrys.png"/></a>
+<a onclick="selectedCharacter()"><img id="Mitsuru" src="../Characters/Mitsuru Kirijo/Mitsuru.png"/></a>
+<a onclick="selectedCharacter()"><img id="Sho" src="../Characters/Sho Minazuki/Sho2.png"/></a>
+
+<a onclick="selectedCharacter()"><img id="Yosuke" src="../Characters/Yosuke Hanamura/Yosuke.png"/></a>
+<a onclick="selectedCharacter()"><img id="Yukiko" src="../Characters/Yukiko Amagi/Yukiko.png"/></a>
+<a onclick="selectedCharacter()"><img id="Yu" src="../Characters/Yu Narukami/Yu3.png"/></a>
+
+</div>
+
+<div id="charNames">
+
+<h2 id="AigisIconName">Aigis</h2>
+<h2 id="ChieIconName">Chie</h2>
+<h2 id="KumaIconName">Kuma</h2>
+<h2 id="LabrysIconName">Labrys</h2>
+<h2 id="MitsuruIconName">Mitsuru</h2>
+<h2 id="ShoIconName">Sho</h2>
+<h2 id="YosukeIconName">Yosuke</h2>
+<h2 id="YukikoIconName">Yukiko</h2>
+<h2 id="YuIconName">Yu</h2>
+
+</div>
+
+<div>
+
+<h1 id="stagesPrompt">Select A Stage!</h1>
+
+<div id="stages">
+<img onclick="stageSelect()" id="Entrance" src="../Stages/Entrance.jpg"/>
+<img onclick="stageSelect()" id="Gym" src="../Stages/Gym.jpg"/>
+<img onclick="stageSelect()" id="Hallway" src="../Stages/Hallway.jpg"/>
+<img onclick="stageSelect()" id="Lockers" src="../Stages/Lockers.jpg"/>
+<img onclick="stageSelect()" id="Music-Room" src="../Stages/Music-Room.jpg"/>
+<img onclick="stageSelect()" id="P4" src="../Stages/P4.jpg"/>
+</div>
+
+<img id="rain" onclick="selectedStage()" src="../Title Screens/rain.gif"/>
+
+</div>
+
+<button class="btn" id="loadSelections" onclick="loadSelections();">Let's Go!</button>
+
+<script src="Selection Screen.js"></script>
+<script src="Gameplay.js"></script>
+
+</body>
+
+</html>
