@@ -1,0 +1,122 @@
+<html>
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<link rel="stylesheet" type="text/css" href="Title.css">
+
+<title>Persona HTML</title>
+
+  </head>
+
+  <body onload="loadPreferences();">
+
+<div id="background">
+<video id="backgroundVideo" loop autoplay>
+</video>
+</div>
+
+<!--Sound Effects-->
+<audio id="error"><source src="../OST/Denied.mp3"/></audio>
+<audio id="kickSomeAss"><source src="../OST/kickSomeAss.mp3"/></audio>
+<audio id="return"><source src="../OST/Return.mp3"/></audio>
+<audio id="select"><source src="../OST/Select.mp3"/></audio>
+<audio id="sonOfaNice"><source src="../OST/Son of a nice.mp3"/></audio>
+
+<!--OST-->
+<audio id="audio1" loop><source src=""/></audio>
+
+<!--Menu-->
+<button id="callMenu" type="button" class=" glyphicon glyphicon-th-list" onclick="menuAppear()">Menu</button>
+
+<!--Design of Menus-->
+<div id="menu" class="navigationMenu">
+<h1>Persona HTML</h1>
+<h2 id="menuNewGame"><a onclick="toSelectionScreen()"  target="_self">New Game</a></h2>
+<h2><a onclick="instructionsAppear()">How To Play</a></h2>
+<h2><a onclick="options()">Options</a></h2>
+<h2><a onclick="creditsAppear()">Credits</a></h2>
+</div>
+
+<div id="help" class="navigationMenu">
+  <h1>How To Play</h1>
+  <p>
+    Objective: Get the CPU's health down to zero by attacking.<br>
+    Otherwise, you lose the fight if your health reaches zero.<br><br>
+
+    A = Attack<br>
+    S = Block<br><br>
+
+    Use the arrow keys to move left, up, right, and down.
+  </p>
+  <h2><a onclick="menuReturn()">Return</a></h2>
+</div>
+
+<div id="options" class="navigationMenu">
+  <h1>Options</h1>
+  <h2><a onclick="optionsOST()">OST</a></h2>
+  <h2><a onclick="chooseTheme()">Themes</a></h2>
+  <h2><a onclick="toTitles()">Title Screens</a></h2>
+  <h2><a onclick="resetPreferences()">Reset Preferences<a/></h2>
+  <h2><a onclick="menuReturn()">Return</a></h2>
+
+</div>
+
+<div id="themes" class="navigationMenu">
+  <h1>Themes</h1>
+    <h2><a id="blue" onclick="">Blue</a></h2>
+    <h2><a id="grey" onclick="">Grey</a></h2>
+    <h2><a id="inverse" onclick="">Red-Inverse</a></h2>
+    <h2><a id="red" onclick="">Red</a></h2>
+    <h2><a id="yellow" onclick="">Yellow</a></h2>
+
+    <h2><a onclick="optionsReturn()">Return</a></h2>
+</div>
+
+<div id="optionsOST" class="navigationMenu">
+  <h1>OST</h1>
+  <button id="prevSongPage" onclick="optionsOST()">Prev. Page</button>
+  <button id="nextSongPage" onclick="optionsOST()">Next Page</button>
+  <h2><a id="wayOfLife" onclick="playSelect()">A Way Of Life</a></h2>
+  <h2><a id="beneathMask" onclick="playSelect()">Beneath the Mask</a></h2>
+  <h2><a id="brandNewDays" onclick="playSelect()">Brand New Days</a></h2>
+  <h2><a id="burnMyDread" onclick="playSelect()">Burn My Dread</a></h2>
+  <h2><a id="changingSeasons" onclick="playSelect()">Changing Seasons</a></h2>
+  <h2><a id="dance" onclick="playSelect()">Dance!</a></h2>
+  <h2><a id="deepBreath" onclick="playSelect()">Deep Breath</a></h2>
+  <h2><a id="heartbreak" onclick="playSelect()">Heartbreak</a></h2>
+
+  <h2><a onclick="optionsReturn()">Return</a></h2>
+</div>
+
+<div id="optionsTitleScreens" class="navigationMenu">
+  <h1>Title Screens</h1>
+  <h2><a id="p3" onclick="titleVideo()">P3</a></h2>
+  <h2><a id="p3FES" onclick="titleVideo()">P3 FES</a></h2>
+  <h2><a id="p3p" onclick="titleVideo()">P3P</a></h2>
+  <h2><a id="p3d" onclick="titleVideo()">P3 DMN</a></h2>
+  <h2 id="p4a" onclick="titleVideo()"><a/>P4 Animation</h2>
+  <h2 id="p4g" onclick="titleVideo()"><a/>P4 Golden</h2>
+  <h2 id="p5" onclick="titleVideo()"><a/>P5 Opening</h2>
+  <h2><a onclick="optionsReturn()">Return</a></h2>
+</div>
+
+<div id="credits" class="navigationMenu">
+  <h1>Credits</h1>
+  <h2>Sega</h2>
+  <p>All Property Of Sega That Was Used Is Theirs.<p>
+  <p>I Do Not Own Any Of It.</p>
+  <p>I used it for learning purposes,</p>
+  <p>relating to Computer Science.</p>
+  <h2><a onclick="menuReturn()">Return</a></h2>
+</div>
+
+    <script src="Title.js"></script>
+  </body>
+
+</html>
