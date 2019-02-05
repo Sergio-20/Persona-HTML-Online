@@ -30,7 +30,7 @@ function toSelectionScreen()
     let kickSomeAss = document.getElementById("kickSomeAss");
     kickSomeAss.addEventListener("ended",()=>{
       console.log("works");  
-      window.open("The Code/Selection Screen.html","_blank");
+      window.open("The Code/Selection Screen.html","_self");
   });
 }
 
