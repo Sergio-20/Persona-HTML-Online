@@ -122,7 +122,7 @@ function resetPreferences()
 
 function randomOST()
 {
-  let ost = ["../OST/A Way Of Life.mp3","../OST/Beneath the Mask.mp3","../OST/Brand New Days.mp3","../OST/Burn My Dread.mp3","../OST/Changing Seasons.mp3","../OST/Dance!.mp3","../OST/Deep breath Deep breath.mp3","../OST/Heartbreak, Heartbreak.mp3","../OST/Heaven.mp3","../OST/Joy.mp3","../OST/Kimi no Kioku.mp3","../OST/Last Surprise.mp3","../OST/More Than One Heart.mp3","../OST/Never More.mp3","../OST/Our Moment.mp3","../OST/Soul Phase"];
+  let ost = ["OST/A Way Of Life.mp3","OST/Beneath the Mask.mp3","OST/Brand New Days.mp3","OST/Burn My Dread.mp3","OST/Changing Seasons.mp3","OST/Dance!.mp3","OST/Deep breath Deep breath.mp3","OST/Heartbreak, Heartbreak.mp3","OST/Heaven.mp3","OST/Joy.mp3","OST/Kimi no Kioku.mp3","OST/Last Surprise.mp3","OST/More Than One Heart.mp3","OST/Never More.mp3","OST/Our Moment.mp3","OST/Soul Phase"];
 
   let randomOST = Math.floor(Math.random() * 15);
 
@@ -584,7 +584,7 @@ function optionsOST()
           playSelect();
           video.muted = true;
           var audio = document.getElementById("audio1");
-          audio.src = "../OST/A Way Of Life.mp3";
+          audio.src = "OST/A Way Of Life.mp3";
           audio.play();
           saveOSTPreferences();
           break;
@@ -592,7 +592,7 @@ function optionsOST()
           playSelect();
           video.muted = true;
           var audio = document.getElementById("audio1");
-          audio.src = "../OST/Heaven.mp3";
+          audio.src = "OST/Heaven.mp3";
           audio.play();
           saveOSTPreferences();
           break;
@@ -606,7 +606,7 @@ function optionsOST()
           playSelect();
           video.muted = true;
           var audio = document.getElementById("audio1");
-          audio.src = "../OST/Beneath the Mask.mp3";
+          audio.src = "OST/Beneath the Mask.mp3";
           audio.play();
           saveOSTPreferences();
           break;
@@ -614,7 +614,7 @@ function optionsOST()
           playSelect();
           video.muted = true;
           var audio = document.getElementById("audio1");
-          audio.src = "../OST/Joy.mp3";
+          audio.src = "OST/Joy.mp3";
           audio.play();
           saveOSTPreferences();
           break;
@@ -628,7 +628,7 @@ function optionsOST()
           playSelect();
           video.muted = true;
           var audio = document.getElementById("audio1");
-          audio.src = "../OST/Brand New Days.mp3";
+          audio.src = "OST/Brand New Days.mp3";
           audio.play();
           saveOSTPreferences();
           break;
@@ -636,7 +636,7 @@ function optionsOST()
           playSelect();
           video.muted = true;
           var audio = document.getElementById("audio1");
-          audio.src = "../OST/Kimi no Kioku.mp3";
+          audio.src = "OST/Kimi no Kioku.mp3";
           audio.play();
           saveOSTPreferences();
           break;
@@ -650,7 +650,7 @@ function optionsOST()
           playSelect();
           video.muted = true;
           var audio = document.getElementById("audio1");
-          audio.src = "../OST/Burn My Dread.mp3";
+          audio.src = "OST/Burn My Dread.mp3";
           audio.play();
           saveOSTPreferences();
           break;
@@ -658,7 +658,7 @@ function optionsOST()
           playSelect();
           video.muted = true;
           var audio = document.getElementById("audio1");
-          audio.src = "../OST/Last Surprise.mp3";
+          audio.src = "OST/Last Surprise.mp3";
           audio.play();
           saveOSTPreferences();
           break;
@@ -672,7 +672,7 @@ function optionsOST()
           playSelect();
           video.muted = true;
           var audio = document.getElementById("audio1");
-          audio.src = "../OST/Changing Seasons.mp3";
+          audio.src = "OST/Changing Seasons.mp3";
           audio.play();
           saveOSTPreferences();
           break;
@@ -680,7 +680,7 @@ function optionsOST()
           playSelect();
           video.muted = true;
           var audio = document.getElementById("audio1");
-          audio.src = "../OST/More Than One Heart.mp3";
+          audio.src = "OST/More Than One Heart.mp3";
           audio.play();
           saveOSTPreferences();
           break;
@@ -694,7 +694,7 @@ function optionsOST()
           playSelect();
           video.muted = true;
           var audio = document.getElementById("audio1");
-          audio.src = "../OST/Dance!.mp3";
+          audio.src = "OST/Dance!.mp3";
           audio.play();
           saveOSTPreferences();
           break;
@@ -702,7 +702,7 @@ function optionsOST()
           playSelect();
           video.muted = true;
           var audio = document.getElementById("audio1");
-          audio.src = "../OST/Never More.mp3";
+          audio.src = "OST/Never More.mp3";
           audio.play();
           saveOSTPreferences();
           break;
@@ -716,7 +716,7 @@ function optionsOST()
           playSelect();
           video.muted = true;
           var audio = document.getElementById("audio1");
-          audio.src = "../OST/Deep breath Deep breath.mp3";
+          audio.src = "OST/Deep breath Deep breath.mp3";
           audio.play();
           saveOSTPreferences();
           break;
@@ -724,7 +724,7 @@ function optionsOST()
           playSelect();
           video.muted = true;
           var audio = document.getElementById("audio1");
-          audio.src = "../OST/Our Moment.mp3";
+          audio.src = "OST/Our Moment.mp3";
           audio.play();
           saveOSTPreferences();
           break;
@@ -738,7 +738,7 @@ function optionsOST()
           playSelect();
           video.muted = true;
           var audio = document.getElementById("audio1");
-          audio.src = "../OST/Heartbreak, Heartbreak.mp3";
+          audio.src = "OST/Heartbreak, Heartbreak.mp3";
           audio.play();
           saveOSTPreferences();
           break;
@@ -746,7 +746,7 @@ function optionsOST()
           playSelect();
           video.muted = true;
           var audio = document.getElementById("audio1");
-          audio.src = "../OST/Soul Phase.mp3";
+          audio.src = "OST/Soul Phase.mp3";
           audio.play();
           saveOSTPreferences();
           break;
@@ -831,28 +831,28 @@ function titleVideo()
 
       p3.addEventListener("click", ()=>{
       playSelect();
-      video.src = "../Title Screens/P3 Opening.mp4";
+      video.src = "Title Screens/P3 Opening.mp4";
       video.play();
       saveVideoPreferences();
     });
 
       p3p.addEventListener("click", ()=>{
       playSelect();
-      video.src = "../Title Screens/P3P.mp4";
+      video.src = "Title Screens/P3P.mp4";
       video.play();
       saveVideoPreferences();
     });
 
       p3d.addEventListener("click", ()=>{
       playSelect();
-      video.src = "../Title Screens/P3 Dancing.mp4";
+      video.src = "Title Screens/P3 Dancing.mp4";
       video.play();
       saveVideoPreferences();
     });
 
     p3FES.addEventListener("click", ()=>{
     playSelect();
-    video.src = "../Title Screens/P3 FES.mp4";
+    video.src = "Title Screens/P3 FES.mp4";
     video.play();
     saveVideoPreferences();
   });
@@ -861,21 +861,21 @@ function titleVideo()
 
     p4g.addEventListener("click", ()=>{
     playSelect();
-    video.src = "../Title Screens/P4G.mp4";
+    video.src = "Title Screens/P4G.mp4";
     video.play();
     saveVideoPreferences();
   });
 
     p4a.addEventListener("click", ()=>{
     playSelect();
-    video.src = "../Title Screens/P4 Animation.mp4";
+    video.src = "Title Screens/P4 Animation.mp4";
     video.play();
     saveVideoPreferences();
   });
 
     p5.addEventListener("click", ()=>{
     playSelect();
-    video.src = "../Title Screens/P5.mp4";
+    video.src = "Title Screens/P5.mp4";
     video.play();
     saveVideoPreferences();
   });
